@@ -1,0 +1,298 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Arial;
+    border: border-box;/*padding and border is included in actual height and width*/
+}
+.navbar{
+   height:60px;
+   background-color:#0f1111;
+   color:white; 
+   display: flex;/*for components in single line*/
+   align-items: center;
+   justify-content: space-evenly;
+}
+.nav-logo{
+ height:50px;
+ width:100px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size:cover;
+    height:100%;
+    width:100%;
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+.address{
+    display:flex;
+    padding-top:13px;
+}
+.navsearch{
+    display:flex;
+    height:35px;
+    width:610px;
+}
+.navsearch:hover{
+    border:2px solid #FEBD69;
+}
+.all{
+    width:51px;
+    background-color: #f3f3f3;
+    text-align: center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+   
+}
+.searchproduct{
+    width:520px;
+    background-color: #f3f3f3;
+    border:none;/*so that search bar is also of same size as all wala*/
+    font-size: 1em;
+}
+.magnifying-glass{
+    background-color:#FEBD69;
+    width:40px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+}
+.FourthBox{
+width:100px;
+}
+.FifthBox{
+    width:70px;
+}
+.first{
+    font-size: 12px;
+}
+.second{
+    font-size:14px;
+}
+.SixthBox i{
+    font-size: 30px;
+    color: #f3f3f3;
+}
+.SixthBox{
+    width:70px;
+    display:flex;
+}
+.cart{
+    height:28px;
+    width:38px;
+}
+.menubar{
+    height:39px;
+    width:100%;
+    background-color:#232f3e;
+    color: white;
+    display:flex;
+    align-items:center;
+    
+}
+.FirstBox2{
+    display:flex;
+}
+.menuicon{
+    margin-left: 20px;
+    margin-right: 5px;
+}
+#rr{
+    margin-right: 20px;
+}
+#rr:hover{
+    border: 1.5px solid white;
+}
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 320px;
+    display:flex;
+    align-items: flex-end;/* if a new item is added add it from bottom side */
+}
+.navhero{
+    height:38px;
+    width: 1172px;
+    background-color: #F5F6F6;
+    display:flex;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.shop-Boxa{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:#F0F0F0;
+}
+.shop-Boxb{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:#F0F0F0;
+}
+#BB{
+    height:350px;
+    width:260px;
+    margin-top: 10px;
+}
+.heading{
+    height:35px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+}
+.shopnow{
+    height:15px;
+}
+.image1{
+ background-image: url("Health\ &\ Personal\ Care.jpg");
+ background-size: cover;
+ height:290px;
+}
+.image2{
+    background-image: url("Electronics.jpg");
+    background-size: cover;
+    height:290px;
+}
+.image3{
+    background-image: url("Beauty\ pic.jpg");
+    background-size: cover;
+    height:290px;
+}
+.image4{
+    background-image: url("Home\ &\ Kitchen.jpg");
+    background-size: cover;
+    height:290px;
+}
+.allinone{
+    height:350px;
+    width:99%;
+    margin:10px;
+}
+.f-images{
+    display:flex;
+    justify-content:space-evenly;
+}
+.f-1{
+    background-image: url("F1.jpg");
+    width:260px;
+    height:290px;
+    background-size: cover;
+}
+.f-2{
+    background-image: url("F2.jpg");
+    width:180px;
+    height:290px; 
+    background-size: cover;
+}
+.f-3{
+    background-image: url("F3.jpg");
+    width:210px;
+    height:250px;
+    background-size: cover;
+}
+.f-4{
+    background-image: url("F4.jpg");
+    width:380px;
+    height:270px;
+    background-size: cover;
+}
+.image5{
+    background-image: url("Toys\ Under\ $30.jpg");
+    background-size: cover;
+    height:290px;
+}
+.image6{
+    background-image: url("Discover\ fashion\ trends.jpg");
+    background-size: cover;
+    height:290px;
+}
+.image7{
+    background-image: url("Home\ refresh\ ideas.jpg");
+    background-size: cover;
+    height:290px;
+}
+.image8{
+    background-image: url("SmartWatches.jpg");
+    background-size: cover;
+    height:290px;
+}
+.backtotop{
+    height:39px;
+    width: 100%;
+    background-color: #232f3e;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.end{
+    height:400px;
+    background-color: #0f1111;
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.ee{
+    height:300px;
+    width:22%;
+    color: white;
+}
+.footer-panel3{
+    height:70px;
+    background-color: #232f3e;
+    width:100%;
+}
+.navlogo-panel3{
+    height:50px;
+    width:86px;
+    margin-left:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+.allelementsfooterpanel{
+    height:50px;
+    width:700px;
+    margin-left:300px;
+   
+    display:flex;
+}
+.logo-panel3{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height:100%;
+    width:100%;
+}
+#ppp{
+    height:30px;
+    width:110px;
+    border:1px solid white;
+    display:flex;
+    color: white;
+    margin-top:10px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+.globe{
+    height:25px;
+    width:25px;
+   color: white;
+}
+.SecBoxpanel{
+    font-size: 13px;
+}
+
